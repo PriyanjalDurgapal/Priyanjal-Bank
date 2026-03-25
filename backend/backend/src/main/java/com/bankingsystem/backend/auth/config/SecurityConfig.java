@@ -85,7 +85,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
           config.setAllowedOrigins(List.of(
         "http://localhost:5173",
-        "https://priyanjal-bank-frontend.onrender.com"
+        "https://priyanjal-bank.vercel.app/"
     ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
